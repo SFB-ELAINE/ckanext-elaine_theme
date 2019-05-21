@@ -5,10 +5,12 @@
     {% if intro %}
       {{ h.render_markdown(intro) }}
     {% else %}
-      <h1 class="page-heading">{{ _("Welcome to Data @ ELAINE") }}</h1>
+      <h1 class="page-heading">{{ _("Welcome to the DataHub @ ELAINE") }}</h1>
       <p>
         {% trans %}
           A simple data sharing and collaboration tool.
+
+          In order to upload datasets please contact the <a href="https://www.elaine.uni-rostock.de/en/projects/service-projects/project-inf/" target="_blank">INF project</a> after your first login.
         {% endtrans %}
       </p>
     {% endif %}
